@@ -1,15 +1,22 @@
 
 #headShot{
-    /*border-radius: 90px;*/
+    border-radius: 50%;
     height: 150px;
     width: 150px;
+    position: relative;
+    left: 50px;
+    top:10px;
 }
 
 h1{
     font-family: 'Anton', sans-serif;
     font-weight: 100;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     color: white;
+    margin: 0px;
+    padding: 1px;
+    border: 0px;
+    text-align: center;
 }
 
 h2{
@@ -25,24 +32,51 @@ h2{
 }
 
 #myTitle{
-
+    padding: 0px;
+    margin: 2px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
     display:grid;
+    grid-template-columns: repeat(6,250px);
+    grid-auto-rows: repeat(8,150px);
 }
 
-#header{
-    background-color: mediumSeaGreen;
-    border: 3px;
-    border-style: solid;
-    border-color: white;
+#myHeader{
+    grid-column: 1/6;
+    grid-row: 1;
+    background-color: #D23831;
+    height: 200px;
 }
 
 #main{
-    background-color: yellow;
+    grid-column: 2/6;
+    grid-row: 2/8;
+    background-color: #F2F2F2;
 }
 
 #sidebar{
-    background-color: blue;
+    grid-column: 1;
+    grid-row: 2/8;
+    background-color: #E5D7C5;
+}
+
+.flex-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerBox{
+    border: solid;
+    color: white;
+    border-width: 1px;
+    padding: 20px 80px 20px 80px;
+    margin: 0px;
+}
+
+#innerSideBar{
+
 }
