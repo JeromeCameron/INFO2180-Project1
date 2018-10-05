@@ -1,6 +1,6 @@
 
 #headShot{
-    border-radius: 90px;
+    /*border-radius: 90px;*/
     height: 150px;
     width: 150px;
 }
@@ -11,4 +11,32 @@ h1{
 
 h2{
     font-family: sans-serif;
+}
+
+.myInfoHeadings{
+
+}
+
+.sectionHeadings{
+
+}
+
+#myTitle{
+
+}
+
+.container{
+    display:grid;
+}
+
+#header{
+    background-color: grey;
+}
+
+#main{
+    background-color: yellow;
+}
+
+#sidebar{
+    background-color: blue;
 }
