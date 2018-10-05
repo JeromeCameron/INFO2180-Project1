@@ -24,7 +24,9 @@ h2{
 }
 
 .myInfoHeadings{
-
+    font-family: 'Bevan', cursive;
+    font-size: 15px;
+    font-weight: 150;
 }
 
 .sectionHeadings{
@@ -54,13 +56,13 @@ h2{
 #main{
     grid-column: 2/6;
     grid-row: 2/8;
-    background-color: #F2F2F2;
+    background-color: #FFFF;
 }
 
 #sidebar{
     grid-column: 1;
     grid-row: 2/8;
-    background-color: #E5D7C5;
+    background-color: #F2F2F2;
 }
 
 .flex-container{
@@ -78,5 +80,26 @@ h2{
 }
 
 #innerSideBar{
+    padding-left: 10px;
+}
 
+li{
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+}
+
+ul{
+    list-style: none;
+}
+
+#contactInfoList{
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+.icons{
+    height: 25px;
+    width: 25px;
+    align-self: center;
 }
