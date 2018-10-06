@@ -6,6 +6,7 @@
     position: relative;
     left: 50px;
     top:10px;
+    margin-bottom: 25px;
 }
 
 h1{
@@ -93,13 +94,17 @@ ul{
     list-style: none;
 }
 
-#contactInfoList{
-    margin-bottom: 50px;
-    border-bottom: 1px solid black;
-}
-
 .icons{
     height: 25px;
     width: 25px;
-    align-self: center;
+}
+
+.flexContactInfo, .flexSocialInfo{
+    display: flex;
+    align-items: center;
+}
+
+.flexContactInfo{
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
 }
