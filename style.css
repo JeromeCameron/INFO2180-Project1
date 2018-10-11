@@ -30,10 +30,6 @@ h2{
     font-weight: 150;
 }
 
-.sectionHeadings{
-
-}
-
 #myTitle{
     padding: 0px;
     margin: 2px;
@@ -45,6 +41,7 @@ h2{
     display:grid;
     grid-template-columns: repeat(6,250px);
     grid-auto-rows: repeat(8,150px);
+    grid-column-gap: 20px;
 }
 
 #myHeader{
@@ -111,5 +108,22 @@ ul{
 
 #skillsList{
     display: flex;
+    justify-content:space-between;
     list-style: circle;
+}
+
+.sectionHeadings{
+    border-top: 1px solid #DCDCDC;
+    padding-top: 20px;
+}
+.flexEducWork{
+    display: flex;
+    justify-content:space-around;
+    align-content: stretch;
+}
+
+.innerFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
 }
