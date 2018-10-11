@@ -108,3 +108,8 @@ ul{
     border-bottom: 1px solid black;
     margin-bottom: 40px;
 }
+
+#skillsList{
+    display: flex;
+    list-style: circle;
+}
