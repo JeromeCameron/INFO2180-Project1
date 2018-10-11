@@ -119,11 +119,11 @@ ul{
 .flexEducWork{
     display: flex;
     justify-content:space-around;
-    align-content: stretch;
 }
 
 .innerFlex{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    flex-flow:wrap;
 }
